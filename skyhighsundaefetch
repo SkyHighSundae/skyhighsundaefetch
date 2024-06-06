@@ -8,7 +8,7 @@
 #
 # The MIT License (MIT)
 #
-# Copyright (c) 2015-2021 Dylan Araps
+# Copyright (c) 2024 SkyHighSundae
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -56,19 +56,19 @@ print_info() {
     info title
     info underline
 
-    info "OS" distro
-    info "Host" model
+    info "Distro" distro
+    info "Computer Info" model
     info "Kernel" kernel
     info "Uptime" uptime
     info "Packages" packages
     info "Shell" shell
     info "Resolution" resolution
-    info "DE" de
-    info "WM" wm
-    info "WM Theme" wm_theme
+    info "Desktop Enviroment" de
+    info "Window Manager" wm
+    info "Window Manager Theme" wm_theme
     info "Theme" theme
     info "Icons" icons
-    info "Terminal" term
+    info "Console" term
     info "Terminal Font" term_font
     info "CPU" cpu
     info "GPU" gpu
